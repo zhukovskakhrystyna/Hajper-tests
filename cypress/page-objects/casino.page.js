@@ -1,20 +1,20 @@
 import BasePage from "./base.page";
 class CasinoPage extends BasePage {
   headerPopup() {
-    return cy.get('[class="btn btn--ghost"]');
+    return cy.get('[class="header__Nav-sc-10cv0jm-0 dFRwVb"]');
   }
 
   gamesCards() {
-    return cy.get('[class="game-card__detail u-b-radius-bottom"]');
+    return cy.get('[class="game-card-styles__CardInterface-sc-1opub9e-1 iwreug"]');
   }
 
-  favoriteButton() {
-    return cy.get('[class="game-info__love-button "]');
+  infoButton() {
+    return cy.get('[class="info-button__InfoButtonContainer-sc-ubfp7e-0 OyThS"]');
   }
 
   popupInput() {
     return cy.get(
-      '[class="notifications__NotificationWrapper-sc-b8lbq-0 labehh no-transition notification-wrap notification-wrap--open neutral"]'
+      '[class="game-infostyles__GameInfoContainer-sc-dnrnxp-0 dfeOsW"]'
     );
   }
 }

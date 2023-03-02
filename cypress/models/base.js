@@ -37,6 +37,6 @@ export function closePopup() {
 
 export function verifyNotification() {
   casinoPage.gamesCards().first().click();
-  casinoPage.infoButton().click({ multiple: true });
+  casinoPage.infoButton().first().click();
   verifyExistence(casinoPage.popupInput());
 }

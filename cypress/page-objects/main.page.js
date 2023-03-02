@@ -6,19 +6,19 @@ class MainPage extends BasePage {
 
   sjalvtestButton() {
     return cy.get(
-      '[class="regulations-header-sga__RegulationsIcon-sc-pgu2pb-1 regulations-header-sga__RegulationsIconTest-sc-pgu2pb-4 dtjrIo fPZTpv"]'
+      '[class="regulations-header-sga__RegulationsIcon-sc-pgu2pb-1 regulations-header-sga__RegulationsIconTest-sc-pgu2pb-4 dtjrIo eEKSes"]'
     );
   }
 
   spelgranserButton() {
     return cy.get(
-      '[class="regulations-header-sga__RegulationsIcon-sc-pgu2pb-1 regulations-header-sga__RegulationsIconLimits-sc-pgu2pb-3 dtjrIo bcppqy"]'
+      '[class="regulations-header-sga__RegulationsIcon-sc-pgu2pb-1 regulations-header-sga__RegulationsIconLimits-sc-pgu2pb-3 dtjrIo jYPmLx"]'
     );
   }
 
   spelpausButton() {
     return cy.get(
-      '[class="regulations-header-sga__RegulationsIcon-sc-pgu2pb-1 regulations-header-sga__RegulationsIconPause-sc-pgu2pb-2 dtjrIo fCgkJZ"]'
+      '[class="regulations-header-sga__RegulationsIcon-sc-pgu2pb-1 regulations-header-sga__RegulationsIconPause-sc-pgu2pb-2 dtjrIo kaaEji"]'
     );
   }
 
